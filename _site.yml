@@ -1,0 +1,16 @@
+name: "Liming-website"
+output_dir: "."
+navbar:
+  title: "Liming's Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Blog"
+      href: https://sunlimingbit.wordpress.com/
+      
+output:
+  html_document:
+    theme: cerulean
+    css: style.css
