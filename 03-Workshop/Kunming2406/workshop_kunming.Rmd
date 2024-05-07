@@ -19,7 +19,7 @@ The workshop will cover a wide range of topics, including but not limited to the
 
 ```{r echo=FALSE}
 library(readxl)
-Book2 <- read_excel("Book2.xls", sheet = "Speaker", range="B1:C14")
+Book2 <- read_excel("Book2.xls", sheet = "Speaker", range="B1:C17")
 knitr::kable(Book2, "pipe")
 ```
 
