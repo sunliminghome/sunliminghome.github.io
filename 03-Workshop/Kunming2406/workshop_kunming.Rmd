@@ -19,7 +19,7 @@ The workshop will cover a wide range of topics, including but not limited to the
 
 ```{r echo=FALSE}
 library(readxl)
-Book2 <- read_excel("Book2.xls", sheet = "Speaker", range="B1:C16")
+Book2 <- read_excel("Book2.xls", sheet = "Speaker", range="B1:C15")
 knitr::kable(Book2, "pipe")
 ```
 
@@ -32,64 +32,278 @@ knitr::kable(Book2, "pipe")
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
   font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0p91{border-color:inherit;font-family:"Times New Roman", Times, serif !important;text-align:center;vertical-align:top}
-.tg .tg-xqz9{background-color:#D2E4FC;border-color:inherit;font-family:"Times New Roman", Times, serif !important;text-align:center;
-  vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
 </style>
-<table class="tg">
+<table class="tg" style="undefined;table-layout: fixed; width: 924px">
+<colgroup>
+<col style="width: 86px">
+<col style="width: 105px">
+<col style="width: 606px">
+<col style="width: 127px">
+</colgroup>
 <thead>
   <tr>
-    <th class="tg-0p91">Time</th>
-    <th class="tg-0p91">Speaker</th>
-    <th class="tg-0p91">Title</th>
-    <th class="tg-0p91">Host</th>
+    <th class="tg-nrix">Time </th>
+    <th class="tg-nrix">Speaker</th>
+    <th class="tg-nrix">Title</th>
+    <th class="tg-nrix">Host</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-xqz9">8:30-8:40</td>
-    <td class="tg-xqz9" colspan="3">Opening</td>
+    <td class="tg-nrix">8:00-8:30</td>
+    <td class="tg-nrix" colspan="3">Opening ceremony and group photo</td>
   </tr>
   <tr>
-    <td class="tg-0p91">   9:00-09:50</td>
-    <td class="tg-0p91"></td>
-    <td class="tg-0p91"></td>
-    <td class="tg-0p91"></td>
+    <td class="tg-nrix">8:30-09:20</td>
+    <td class="tg-nrix">Bernhard Ruf </td>
+    <td class="tg-nrix">On an inequality of Bliss–Moser type</td>
+    <td class="tg-nrix" rowspan="2">Zhitao Zhang </td>
   </tr>
   <tr>
-    <td class="tg-xqz9"> 10:00-10:20</td>
-    <td class="tg-xqz9" colspan="3">Break</td>
+    <td class="tg-nrix">09:30-10:20</td>
+    <td class="tg-nrix">Feng Zhou</td>
+    <td class="tg-nrix">Eigenvalues of a Dirichlet problem involving fractional operator</td>
   </tr>
   <tr>
-    <td class="tg-0p91">   10:20-11:30   </td>
-    <td class="tg-0p91"></td>
-    <td class="tg-0p91"></td>
-    <td class="tg-0p91"></td>
+    <td class="tg-nrix">10:30-10:50</td>
+    <td class="tg-nrix" colspan="3">Break</td>
   </tr>
   <tr>
-    <td class="tg-xqz9">   11:40-14:30   </td>
-    <td class="tg-xqz9" colspan="3">Lunch Break</td>
+    <td class="tg-nrix">10:50-11:40</td>
+    <td class="tg-nrix">Zhi-Qiang Wang</td>
+    <td class="tg-nrix">Nodal solutions for a class of coupled elliptic equations</td>
+    <td class="tg-nrix">Wenming Zou</td>
   </tr>
   <tr>
-    <td class="tg-0p91">   14:30-15:20   </td>
-    <td class="tg-0p91"></td>
-    <td class="tg-0p91"></td>
-    <td class="tg-0p91"></td>
+    <td class="tg-nrix">11:40-14:30</td>
+    <td class="tg-nrix" colspan="3">Lunch Break</td>
   </tr>
   <tr>
-    <td class="tg-xqz9">   15:30-15:50   </td>
-    <td class="tg-xqz9" colspan="3">Break</td>
+    <td class="tg-nrix">14:30-15:20</td>
+    <td class="tg-nrix">Wenming Zou </td>
+    <td class="tg-nrix">The classification of critical points of Heat kernel on tori and applications to elliptic equation <br>and minimization problem on lattice </td>
+    <td class="tg-nrix">Kazunaga Tanaka</td>
   </tr>
   <tr>
-    <td class="tg-0p91">   15:50-16:40   </td>
-    <td class="tg-0p91"></td>
-    <td class="tg-0p91"></td>
-    <td class="tg-0p91"></td>
+    <td class="tg-nrix">15:30-15:50</td>
+    <td class="tg-nrix" colspan="3">Break</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">15:50-16:40</td>
+    <td class="tg-nrix">Liming Sun</td>
+    <td class="tg-nrix">Attainability of the best constant of Hardy-Sobolev inequalities with full boundary singularities</td>
+    <td class="tg-nrix" rowspan="2">Bernhard Ruf </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">16:50-17:40</td>
+    <td class="tg-nrix">Yohei Sato</td>
+    <td class="tg-nrix">Even symmetric ground state for the nonlinear Schr\"odinger system with repulsive interaction</td>
   </tr>
 </tbody>
 </table>
 
 #### Day 2: June 11 (Tuesday)
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 924px">
+<colgroup>
+<col style="width: 86px">
+<col style="width: 105px">
+<col style="width: 606px">
+<col style="width: 127px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-nrix">Time </th>
+    <th class="tg-nrix">Speaker</th>
+    <th class="tg-nrix">Title</th>
+    <th class="tg-nrix">Host</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix">8:30-09:20</td>
+    <td class="tg-nrix">Louis Jeanjean</td>
+    <td class="tg-nrix">On the existence of prescribed $L^2$ norm solutions for nonlinear Schr\"odinger equations on metric graphs: the mass supercritical case.</td>
+    <td class="tg-nrix" rowspan="2">Zhi-Qiang Wang</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">09:30-10:20</td>
+    <td class="tg-nrix">Youde Wang</td>
+    <td class="tg-nrix">Gradient estimates via Nash-Moser method and Liouville theorems</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">10:30-10:50</td>
+    <td class="tg-nrix" colspan="3">Break</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">10:50-11:40</td>
+    <td class="tg-nrix">Zhitao Zhang</td>
+    <td class="tg-nrix">Some new results on normalized solutions of Schrodinger equations and systems</td>
+    <td class="tg-nrix">Futoshi Takahashi </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">11:50-14:30</td>
+    <td class="tg-nrix" colspan="3">Lunch Break</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">14:30-15:20</td>
+    <td class="tg-nrix">Yannick Sire</td>
+    <td class="tg-nrix">Eigenvalue estimates and a conjecture of Yau</td>
+    <td class="tg-nrix">Jun Wang</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">15:30-15:50</td>
+    <td class="tg-nrix" colspan="3">Break</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">15:50-16:40</td>
+    <td class="tg-nrix">Yanyan Li</td>
+    <td class="tg-nrix">Minicourse I: Some recent results on conformally invariant equations </td>
+    <td class="tg-nrix" rowspan="2">Youde Wang</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">16:50-17:50</td>
+    <td class="tg-nrix">Yanyan Li</td>
+    <td class="tg-nrix">Minicouse II: Some recent results on conformally invariant equations </td>
+  </tr>
+</tbody>
+</table>
+
+
+#### Day 3: June 12 (Wednesday)
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 924px">
+<colgroup>
+<col style="width: 86px">
+<col style="width: 105px">
+<col style="width: 606px">
+<col style="width: 127px">
+</colgroup>
+<thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix">8:30-9:20</td>
+    <td class="tg-nrix">Jaeyoung Byeon </td>
+    <td class="tg-nrix">A nonsmooth critical point theory and its application to Born-Infeld equations</td>
+    <td class="tg-nrix">Xi-Nan Ma</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">9:30-9:50</td>
+    <td class="tg-nrix" colspan="3">Break</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">9:50-10:40</td>
+    <td class="tg-nrix">Yanyan Li</td>
+    <td class="tg-nrix">Minicourse III: Some recent results on conformally invariant equations </td>
+    <td class="tg-nrix" rowspan="2">Feng Zhou</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">10:50-11:40</td>
+    <td class="tg-nrix">Yanyan Li</td>
+    <td class="tg-nrix">Minicourse V: Some recent results on conformally invariant equations </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">11:50-1:30</td>
+    <td class="tg-nrix" colspan="3">Lunch Break</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">14:00-16:00</td>
+    <td class="tg-nrix" colspan="3">Visit to XiangJiu/Lin Shi</td>
+  </tr>
+</tbody>
+</table>
+
+#### Day 4: June 13 (Thursday)
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 924px">
+<colgroup>
+<col style="width: 86px">
+<col style="width: 105px">
+<col style="width: 606px">
+<col style="width: 127px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-nrix">Time</th>
+    <th class="tg-nrix">Speaker</th>
+    <th class="tg-nrix">Title</th>
+    <th class="tg-nrix">Host</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix">8:30-09:20</td>
+    <td class="tg-nrix">Kazunaga Tanaka</td>
+    <td class="tg-nrix">Normalized solutions for nonlinear Schr\"odinger equations <span style="font-weight:400;font-style:normal">with $L^2$ critical nonlinearity</span></td>
+    <td class="tg-nrix" rowspan="2">Louis Jeanjean</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">09:30-10:20</td>
+    <td class="tg-nrix">Shusen Yan</td>
+    <td class="tg-nrix">Stable Critical Points for the Kirchhoff-Routh Type Functions</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">10:30-10:50</td>
+    <td class="tg-nrix" colspan="3">Break</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">10:50-11:40</td>
+    <td class="tg-nrix">Futoshi Takahashi</td>
+    <td class="tg-nrix">Asymptotic behavior of radial solutions for some weighted elliptic equations on the annulus</td>
+    <td class="tg-nrix">Jaeyoung Byeon</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">11:50-14:30</td>
+    <td class="tg-nrix" colspan="3">Lunch Break</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">14:30-15:20</td>
+    <td class="tg-nrix">Xi-Nan Ma </td>
+    <td class="tg-nrix">Jerison-Lee identities and Semi-linear subelliptic equations on CR manifolds</td>
+    <td class="tg-nrix">Yannick Sire</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">15:30-15:50</td>
+    <td class="tg-nrix" colspan="3">Break</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">15:50-16:40</td>
+    <td class="tg-nrix">Yuxia Guo</td>
+    <td class="tg-nrix">An elliptic problem with periodic boundary condition</td>
+    <td class="tg-nrix" rowspan="2">Shusen Yan</td>
+  </tr>
+</tbody>
+</table>
+
+#### Titles and Abstracts
+
+Download [Titles and abstracts](title_and_abstract.pdf).
+
 
 
 ## Location, Travel and Accommodation
